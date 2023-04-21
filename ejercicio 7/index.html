@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calcularTiempoEncuentroEstilos.css'>
+    <script src='calcularTiempoEncuentroLogica.js'></script>
+</head>
+<body>
+    <h1>Calculadora de tiempo de encuentro entre vehículos</h1>
+	<label for="distancia">Distancia entre los vehículos (km):</label>
+	<input type="number" id="distancia"><br>
+	<label for="velocidad1">Velocidad del primer vehículo (km/h):</label>
+	<input type="number" id="velocidad1"><br>
+	<label for="velocidad2">Velocidad del segundo vehículo (km/h):</label>
+	<input type="number" id="velocidad2"><br>
+	<button onclick="calcularTiempoEncuentro()">Calcular tiempo de encuentro</button>
+	<p id="resultado"></p> 
+</body>
+</html>
